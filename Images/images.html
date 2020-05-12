@@ -1,0 +1,119 @@
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+  	.all {
+		max-width:1300px;
+		margin: auto;
+		padding: 10px;
+	}
+	.title {
+		max-width:1500px;
+		margin: auto;
+		text-align:center;
+	}
+
+	.content{
+		padding=20px;
+	}
+
+	.canvis {
+		padding=20px;
+		border-top: 3px black;
+	}
+
+	ul.navigator {
+		list-style-type: none;
+	}
+
+	ul li.folder:before {
+		content: '';
+		display: inline-block;
+		height: 15px;
+		width: 15px;
+		background-size: 15px;
+		background-image: url("folder.ico");
+		background-repeat: no-repeat;
+		margin-right: 2px;
+	}
+
+	ul li.file:before {
+		content: '';
+		display: inline-block;
+		height: 15px;
+		width: 15px;
+		background-size: 15px;
+		background-image: url("file.ico");
+		background-repeat: no-repeat;
+		margin-right: 2px;
+	}
+
+	li.normal{
+		list-style-type: bullet;
+	}
+
+	html {
+	   color: #000;
+	   font-family: Arial;
+	}
+
+	h3{
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+
+	.canvis {
+		padding=20px;
+		border-top: 3px black;
+	}
+	h4{
+		margin-left: 20px;
+		text-decoration: underline;
+	}
+
+	a {
+		background-color: transparent;
+		text-decoration: none;
+		font-weight:bold;
+	}
+	a:link {
+		color: green;
+	}
+
+	a:visited {
+		color: darkgreen;
+
+	}
+	</style>
+
+	<script>
+	function goBack() {
+		window.history.back();
+	}
+	</script>
+    <title>Dossier TFG</title>
+  </head>
+
+  <body bgcolor=white>
+	<div class="all">
+		<div class="title">
+			<h2>Web Application Firewall for a High Availability front end</h2>
+		</div>
+
+		<div class="content">
+			<button onclick="goBack()">Back</button>
+      <h2> Images from the project:</h2>
+	  <p> WAF_v1 graph: </p>
+		<img src="WAF_v1_1st_revission.png">
+		<p> WAF_v1 flow diagram: </p>
+	  <img src="waf_v1_flow_diagram.png">
+		<p> WAF_v2 graph: </p>
+	  <img src="WAF_v2_Second_Revision.png">
+	  <p> WAF_v2 flow diagram: </p>
+	  <img src="Flow_Diagram_WAF_v2.png">
+	 
+
+      </div>
+	</div>
+  </body>
+</html>
