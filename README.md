@@ -31,5 +31,5 @@ Functional tests have been performed, as well as the comparison between WAF_v1 a
 
 ###### Further Information
 
-More information can be found in the Implementation of a Web Application Firewall for a High Availability front end paper.
-Documentation to run the service can be found in the User manual HAWAF document
+More information can be found in the Implementation of a Web Application Firewall for a High Availability front end paper located at the reports folder.
+Documentation to run the service can be found in the User manual HAWAF document at the reports folder
